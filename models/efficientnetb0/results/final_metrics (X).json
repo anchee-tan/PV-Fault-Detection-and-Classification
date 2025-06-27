@@ -1,0 +1,120 @@
+{
+    "training_metrics": {
+        "total_training_time_s": 716.9066700935364,
+        "final_epoch": 35,
+        "best_epoch": 34,
+        "best_val_loss": 0.6891444421583607,
+        "best_val_accuracy_percent": 93.75,
+        "final_val_loss": 0.6890685071227372,
+        "final_val_accuracy_percent": 93.75,
+        "final_train_loss": 0.50106808147221,
+        "final_train_accuracy_percent": 100.0,
+        "test_loss": 0.4687413291264606,
+        "test_accuracy_percent": 90.32258064516128,
+        "final_model_test_loss": 0.46883367274397164,
+        "final_model_test_accuracy_percent": 90.32258064516128,
+        "initial_lr": 0.0005,
+        "final_lr": 1.5054200746890429e-06
+    },
+    "system_metrics": {
+        "cpu": {
+            "mean": 14.76607142857143,
+            "max": 100.0,
+            "min": 0.0,
+            "std": 22.7331741293401
+        },
+        "ram": {
+            "mean": 84.16321428571428,
+            "max": 92.0,
+            "min": 80.8,
+            "std": 1.669079202031186
+        },
+        "gpu": {
+            "usage_mean": 41.489285714285714,
+            "usage_max": 49.0,
+            "usage_min": 0.0,
+            "usage_std": 5.176515601783714,
+            "memory_mean": 22.72812979561942,
+            "memory_max": 22.754287719726562,
+            "memory_min": 15.527725219726562,
+            "memory_std": 0.4311163082682796
+        }
+    },
+    "dataset_metrics": {
+        "train_samples": 4463,
+        "val_samples": 558,
+        "test_samples": 558,
+        "num_classes": 10
+    },
+    "training_parameters": {
+        "batch_size": 32,
+        "num_epochs": 35,
+        "optimizer": "AdamW",
+        "criterion": "CrossEntropyLoss",
+        "scheduler": "CosineAnnealingLR",
+        "scheduler_type": "cosine"
+    },
+    "learning_rates": [
+        0.0005,
+        0.000498994579925311,
+        0.0004959864147525077,
+        0.0004909997244587894,
+        0.00048407465894227447,
+        0.0004752669747586293,
+        0.00046464758620206616,
+        0.00045230199434514323,
+        0.000438329598634402,
+        0.0004228428965844696,
+        0.0004059665780142188,
+        0.0003878365211176627,
+        0.00036859869845263154,
+        0.00034840800165556753,
+        0.0003274269943451432,
+        0.0003058246032555896,
+        0.00028377475813795957,
+        0.0002614549913800412,
+        0.00023904500861995898,
+        0.00021672524186204062,
+        0.00019467539674441055,
+        0.00017307300565485694,
+        0.00015209199834443268,
+        0.00013190130154736864,
+        0.00011266347888233745,
+        9.453342198578134e-05,
+        7.765710341553061e-05,
+        6.217040136559821e-05,
+        4.8198005654856915e-05,
+        3.585241379793395e-05,
+        2.5233025241370853e-05,
+        1.6425341057725636e-05,
+        9.500275541210656e-06,
+        4.513585247492242e-06,
+        1.5054200746890429e-06
+    ],
+    "model_metrics_best": {
+        "model_size_mb": 22.497116088867188,
+        "total_parameters_m": 5.374404,
+        "inference_time_ms": 11.728975772857666,
+        "inference_fps": 85.25893644644799,
+        "inference_std_dev_ms": 3.039124318716494,
+        "allocated_memory_mb": 254.6298828125,
+        "reserved_memory_mb": 366.0,
+        "max_allocated_mb": 300.27294921875,
+        "max_reserved_mb": 366.0,
+        "flops": 402222592,
+        "gigaflops": 0.402222592
+    },
+    "model_metrics_final": {
+        "model_size_mb": 22.497116088867188,
+        "total_parameters_m": 5.374404,
+        "inference_time_ms": 11.842665672302246,
+        "inference_fps": 84.44044843204607,
+        "inference_std_dev_ms": 4.819589182735419,
+        "allocated_memory_mb": 254.6298828125,
+        "reserved_memory_mb": 366.0,
+        "max_allocated_mb": 300.27294921875,
+        "max_reserved_mb": 366.0,
+        "flops": 402222592,
+        "gigaflops": 0.402222592
+    }
+}

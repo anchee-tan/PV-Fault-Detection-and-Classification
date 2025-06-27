@@ -1,0 +1,75 @@
+{
+    "01substring open circuit": {
+        "precision": 0.9827586206896551,
+        "recall": 0.95,
+        "f1-score": 0.9661016949152542,
+        "support": 60.0
+    },
+    "02short circuit panel": {
+        "precision": 0.9772727272727273,
+        "recall": 1.0,
+        "f1-score": 0.9885057471264368,
+        "support": 43.0
+    },
+    "03string short circuit": {
+        "precision": 0.6,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.5,
+        "support": 7.0
+    },
+    "04debris cover": {
+        "precision": 0.8529411764705882,
+        "recall": 0.7073170731707317,
+        "f1-score": 0.7733333333333333,
+        "support": 41.0
+    },
+    "05shadow": {
+        "precision": 0.8928571428571429,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8620689655172413,
+        "support": 30.0
+    },
+    "06bottom dirt": {
+        "precision": 0.8709677419354839,
+        "recall": 0.7297297297297297,
+        "f1-score": 0.7941176470588235,
+        "support": 37.0
+    },
+    "07panel break": {
+        "precision": 0.9166666666666666,
+        "recall": 0.8461538461538461,
+        "f1-score": 0.88,
+        "support": 13.0
+    },
+    "08junction box overheating": {
+        "precision": 0.9873417721518988,
+        "recall": 0.975,
+        "f1-score": 0.9811320754716981,
+        "support": 80.0
+    },
+    "09hot cell": {
+        "precision": 0.8627450980392157,
+        "recall": 0.9263157894736842,
+        "f1-score": 0.8934010152284264,
+        "support": 95.0
+    },
+    "10healthy panel": {
+        "precision": 0.8666666666666667,
+        "recall": 0.9407894736842105,
+        "f1-score": 0.9022082018927445,
+        "support": 152.0
+    },
+    "accuracy": 0.9032258064516129,
+    "macro avg": {
+        "precision": 0.8810217612750046,
+        "recall": 0.8337210674116964,
+        "f1-score": 0.8540868680543958,
+        "support": 558.0
+    },
+    "weighted avg": {
+        "precision": 0.9028108952914073,
+        "recall": 0.9032258064516129,
+        "f1-score": 0.9011868218043836,
+        "support": 558.0
+    }
+}
